@@ -1,0 +1,25 @@
+body, html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  margin: 3rem;
+}
+
+main {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(12rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+  grid-gap: 1rem;
+}
+
+main .card img {
+  width: 100%;
+}
+/*# sourceMappingURL=main.css.map */
